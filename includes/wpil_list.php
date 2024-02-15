@@ -5,13 +5,13 @@ if (!defined("ABSPATH")) {
 }
 
 function wpdil_images_list_menu() {
-    add_menu_page('Images List', 'Images List', 'manage_options', 'wpdock_images_list', 'wpdil_page', 'dashicons-format-gallery');
+    add_menu_page('List Images', 'List Images', 'manage_options', 'wpdock_images_list', 'wpdil_page', 'dashicons-format-gallery');
 }
 add_action('admin_menu', 'wpdil_images_list_menu');
 
 function wpdil_page() {
     echo '<div class="wrap">';
-    echo '<h1>Image List</h1>';
+    echo '<h1>List Images</h1>';
     echo '<table id="wpdock_il_table" class="display" style="width:100%">';
     echo '<thead>';
     echo '<tr>';
