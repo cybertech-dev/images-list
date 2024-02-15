@@ -3,7 +3,7 @@ Contributors: WPDOCK
 Tags: Images List, List Images, Filename Edit, Alt Edit, Active Images
 Requires at least: 3.6.1
 Tested up to: 6.4.3
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 
 
@@ -42,6 +42,9 @@ What about the thumbnails? The plugin is regenerating the thumbnails based on th
 2. screenshot-2.png
 
 == Changelog ==
+= 1.0.2 =
+* Fixed menu position
+
 = 1.0.1 =
 * Wordpress new core
 

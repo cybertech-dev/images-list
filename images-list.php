@@ -2,7 +2,7 @@
 /*
 Plugin Name: List Images
 Description: Easy way to view and manage all images.
-Version: 1.0.1
+Version: 1.0.2
 Author: WPdock
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
