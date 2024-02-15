@@ -1,0 +1,218 @@
+#wpdock_il_table{
+    margin:20px 0;
+
+}
+.il-thumbnail-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+.gcv-editable-alt{
+    width:100%;
+}
+.il-editable{
+    width:100%;
+    display: none;
+}
+.edit_submit{display:none;}
+.actions{
+    display: flex;
+    gap: 10px;
+}
+.actions .edit svg{
+    fill:#ffffff;
+    width: 15px;
+    height: 15px;
+}
+.actions .edit{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2a2833;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    transition: all 0.4s ease-in-out!important;
+
+}
+
+.il-editable-alt.done{
+    border:2px solid #18c746!important;
+}
+.editable-text{
+    display: block;
+    padding: 5px 12px!important;
+}
+.il-input{
+    border-style: solid;
+    border-width: 2px!important;
+    border-color: #bbc5ce!important;
+    padding: 5px 12px!important;
+    transition: all 0.2s ease-in-out!important;
+    border-radius: 8px!important;
+}
+.il-input:focus{
+    outline: none!important;
+    border-color: #2a2833!important;
+}
+
+.actions .edit.il-sumbit{
+    color: #fff;
+
+    background: #31B653;
+    box-shadow: 0 4px 20px rgba(63, 220, 117, 0.15);
+}
+.cancel_row{
+    width: 35px;
+    height: 35px;
+    display: block;
+}
+.cancel_container{
+
+    display: none;
+}
+.actions .cancel{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f1f5;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+
+}
+.actions .cancel svg{
+    fill:#000000;
+    width: 20px;
+    height: 20px;
+}
+
+.buttons-csv{
+    cursor: pointer;
+    margin-left: 40px;
+    background: #6DA23F;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.buttons-csv:hover{
+    background: rgb(76 138 22);
+}
+.export-csv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:5px 8px;
+    color: #fff;
+}
+.export-csv svg *{
+    fill:#fff;
+
+}
+.export-csv svg{
+    fill:#fff;
+    width:25px;
+    height:25px;
+}
+.dataTables_wrapper .dataTables_filter input {
+    border: 2px solid #bbc5ce!important;
+    background: #fff;
+    outline: none!important;
+    padding: 5px 12px!important;
+    transition: all 0.2s ease-in-out!important;
+    border-radius: 8px;
+}
+.dataTables_wrapper .dataTables_filter input:focus {
+    border: 2px solid #2a2833!important;
+    box-shadow: none!important;
+}
+
+.dataTables_length select{
+    background-color: #ffffff!important;
+    padding: 4px 30px 4px 10px!important;
+    border-radius: 8px!important;
+}
+
+.dataTables_wrapper .paginate_button{
+    border-radius:50px!important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    color: #fff!important;
+    border-color: transparent!important;
+    background: #007bff!important;
+    box-shadow: 0 3px 10px 0 rgb(44 75 137/10%);
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+    color: #fff!important;
+    border: 1px solid #3d96f5!important;
+    background: #4da3ff!important;
+    box-shadow: none;
+}
+
+.colored-toast.swal2-icon-success {
+    background-color: #08BD2E !important;
+}
+
+.colored-toast.swal2-icon-error {
+    background-color: #f27474 !important;
+}
+
+.colored-toast.swal2-icon-warning {
+    background-color: #f8bb86 !important;
+}
+
+.colored-toast.swal2-icon-info {
+    background-color: #3fc3ee !important;
+}
+
+.colored-toast.swal2-icon-question {
+    background-color: #87adbd !important;
+}
+
+.colored-toast .swal2-title {
+    color: white;
+}
+
+.colored-toast .swal2-close {
+    color: white;
+}
+
+.colored-toast .swal2-html-container {
+    color: white;
+}
+
+#wpdock_il_table{
+    background: #ffffff;
+    color: #2a2833;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: rgba(67,105,147,0.15) 0px 20px 75px 0px;
+    overflow: hidden;
+}
+
+.center-text{
+    text-align: center!important;
+}
+
+#wpdock_il_table .dataTable.stripe > tbody > tr.odd > *, table.dataTable.display > tbody > tr.odd > *,
+table.dataTable.display > tbody > tr.odd > .sorting_1, table.dataTable.order-column.stripe > tbody > tr.odd > .sorting_1
+{
+    box-shadow:none;
+}
+table.dataTable.display tbody tr:hover > .sorting_1, table.dataTable.order-column.hover tbody tr:hover > .sorting_1{
+    box-shadow:none;
+}
+table.dataTable.display > tbody > tr.even > .sorting_1, table.dataTable.order-column.stripe > tbody > tr.even > .sorting_1{
+    box-shadow:none;
+}
+
+table.dataTable.hover > tbody > tr:hover > *, table.dataTable.display > tbody > tr:hover > *{
+    background: #F1F3F4;
+    box-shadow:none;
+}
+
+
