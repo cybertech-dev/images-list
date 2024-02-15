@@ -5,7 +5,7 @@ if (!defined("ABSPATH")) {
 }
 
 function wpdil_images_list_menu() {
-    add_menu_page('Images List', 'Images List', 'manage_options', 'wpdock_images_list', 'wpdil_page', 'dashicons-format-gallery', 81);
+    add_menu_page('Images List', 'Images List', 'manage_options', 'wpdock_images_list', 'wpdil_page', 'dashicons-format-gallery');
 }
 add_action('admin_menu', 'wpdil_images_list_menu');
 
