@@ -1,3 +1,2 @@
-- name: WordPress Plugin SVN Deploy
-uses: nk-o/action-wordpress-plugin-deploy@v0.0.5
-            
+- name: WordPress Plugin Deploy
+uses: 10up/action-wordpress-plugin-deploy@2.2.2
